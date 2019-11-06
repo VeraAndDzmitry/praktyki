@@ -1,0 +1,327 @@
+Identyfikator strony ;@shop_id 
+
+Dane towaru - Identyfikator ;@id 
+
+Dane towaru - Seria ;/series@id 
+
+Dane towaru - Kategoria towaru w panelu ;/category@name 
+
+Dane towaru - Kategoria IAI ;/iai_category@path 
+
+Dane towaru - Producent ;/producer@name 
+
+Dane towaru - Gwarancja ;/warranty@name 
+
+Dane towaru - Kod wyświetlany na karcie towaru ;@code_on_card 
+
+Dane towaru - Kod producenta ;@code_producer 
+
+Dane towaru - Kod zewnętrznego systemu ;@code_external 
+
+Dane towaru - Stawka VAT ;/price@vat 
+
+Dane towaru - PKWiU ;/taxcode 
+
+Dane towaru - Adnotacja ;/note 
+
+Dane towaru - Ocena złożona ;/complex_notes 
+
+Dane towaru - Towary w koszyku sumują się przy wielokrotnym dodawaniu ;/sum_in_basket@value 
+
+Dane towaru - Ukryty na stronie przed klientami ;/visibility/site@visible 
+
+Dane towaru - Widoczny w porównywarkach cen ;/visibility/price_comparator@visible 
+
+Dane towaru - Priorytet ;/priority@level 
+
+Dane towaru - Dostawca ;/deliverer@id 
+
+Dane towaru - Czas na sprowadzenie towaru od dostawcy ;/delivery_time/mode@type 
+
+Dane towaru - Ilość czasu na dostawę ;/delivery_time/time@days 
+
+Dane towaru - Tabela rozmiarów ;/size_chart@name 
+
+Dane towaru - Profil dostępności ;/availability_profile@id 
+
+Dane towaru - Profil wysyłki i zwrotu towaru ;/shipment_profile@id 
+
+Dane towaru - Określaj dostępność ;/availability_management@value 
+
+Ceny - Waluta ;@currency 
+
+Ceny - Ustawienia dotyczące cen dla sklepów ;/prices_configuration_for_shops@value 
+
+Ceny - Ustawienia dotyczące cen ;/prices_config/site@type 
+
+Ceny - Ustawienia dotyczące cen dla POS (wkrótce) ;/pos_prices_config/site@type 
+
+Cena - Bazowa cena detaliczna [brutto] ;/price_retail_base@gross 
+
+Cena - Bazowa cena detaliczna [netto] ;/price_retail_base@net 
+
+Cena - Bazowa cena hurtowa [brutto] ;/price_wholesale_base@gross 
+
+Cena - Bazowa cena hurtowa [netto] ;/price_wholesale_base@net 
+
+Cena - Bazowa cena minimalna [brutto] ;/price_minimal_base@gross 
+
+Cena - Bazowa cena minimalna [netto] ;/price_minimal_base@net 
+
+Cena - Bazowa sugerowana cena detaliczna [brutto] ;/srp_base@gross 
+
+Cena - Bazowa sugerowana cena detaliczna [netto] ;/srp_base@net 
+
+Cena - Bazowa cena przekreślona detaliczna [brutto] ;/crossedout_retail_price_base@gross 
+
+Cena - Bazowa cena przekreślona detaliczna [netto] ;/crossedout_retail_price_base@net 
+
+Cena - Bazowa cena przekreślona hurtowa [brutto] ;/crossedout_wholesale_price_base@gross 
+
+Cena - Bazowa cena przekreślona hurtowa [netto] ;/crossedout_wholesale_price_base@net 
+
+Cena - Cena dla POS [brutto] ;/price_pos/price@gross 
+
+Cena - Cena dla POS [netto] ;/price_pos/price@net 
+
+Ceny dla porównywarek 	 
+
+Ceny - Porównywarki cen - Numer sklepu ;/pricecomparator_price/site@id 
+
+Ceny - Porównywarki cen - Identyfikator serwisu ;/pricecomparator_price/site@service_id 
+
+Ceny - Porównywarki cen - Cena brutto ;/pricecomparator_price/site@gross 
+
+Ceny - Porównywarki cen - Cena netto ;/pricecomparator_price/site@net 
+
+Ceny dla aukcji 	 
+
+Ceny - Serwisy aukcyjne - Numer sklepu ;/auction_price/site@id 
+
+Ceny - Serwisy aukcyjne - Identyfikator rozmiaru ;/auction_price/site@size_id 
+
+Ceny - Serwisy aukcyjne - Identyfikator grupy serwisu ;/auction_price/site@service_group_id 
+
+Ceny - Serwisy aukcyjne - Identyfikator serwisu ;/auction_price/site@service_id 
+
+Ceny - Serwisy aukcyjne - Typ ceny ;/auction_price/site@price_type 
+
+Ceny - Serwisy aukcyjne - Cena brutto ;/auction_price/site@gross 
+
+Ceny - Serwisy aukcyjne - Cena netto ;/auction_price/site@net 
+
+Opisy towaru 	 
+
+Nazwa i opis - Nazwa towaru ;/description/name 
+
+Nazwa i opis - Nazwa towaru [język tłumaczenia] ;/product/names/name@[lang] 
+
+Nazwa i opis - Opis krótki ;/description/short_desc 
+
+Nazwa i opis - Opis krótki [język tłumaczenia] ;/product/descriptions/description@[lang] 
+
+Nazwa i opis - Opis długi ;/description/long_desc 
+
+Nazwa i opis - Opis długi [język tłumaczenia] ;/product/descriptions_long/description_long@[lang] 
+
+Nazwa i opis - Nazwa dla porównywarek cen ;/description/pricecomparator_name 
+
+Nazwa i opis - Nazwa dla porównywarek cen [język tłumaczenia] ;/product/pricecomparator_names/pricecomparator_name@[lang] 
+
+Meta - tytuł ;/description/meta_title 
+
+Meta - tytuł [język tłumaczenia] ;/product/meta_titles/meta_title@[lang] 
+
+Meta - opis ;/description/meta_description 
+
+Meta - opis [język tłumaczenia] 	 
+
+Meta - słowa kluczowe ;/description/meta_keywords 
+
+Meta - słowa kluczowe [język tłumaczenia] 	 
+
+Aukcje internetowe - Nazwa dla aukcji internetowych ;/description/auction_name 
+
+Aukcje internetowe - Nazwa dla aukcji internetowych [język tłumaczenia] 	 
+
+Aukcje internetowe - Opis długi dla aukcji internetowych ;/description/auction_long_desc 
+
+Aukcje internetowe - Opis długi dla aukcji internetowych [język tłumaczenia] 	 
+
+Meta - opis [język tłumaczenia] ;/product/meta_descriptions/meta_description@[lang] 
+
+Meta - słowa kluczowe [język tłumaczenia] ;/product/meta_keywords/meta_keywords@[lang] 
+
+Aukcje internetowe - Nazwa dla aukcji internetowych [język tłumaczenia] ;/product/auction_names/auction_name@[lang] 
+
+Aukcje internetowe - Opis długi dla aukcji internetowych [język tłumaczenia] ;/product/auction_descriptions/auction_description@[lang] 
+
+Parametry towaru 	 
+
+Parametry - Typ ;/parameters/parameter@type 
+
+Parametry - Wyróżniony ;/parameters/parameter@distinction 
+
+Parametry - Ścieżka parametr/wartość ;/parameters/parameter@textid 
+
+Parametry - Nazwa parametru ;/parameters/parameter@name[pol] 
+
+Parametry - Nazwa wartości parametru ;/parameters/parameter/value@name[pol] 
+
+Parametry - Priorytet ;/parameters/parameter@priority 
+
+Parametry - Wyróżniony w grupie ;/parameters/parameter@group_distinction 
+
+Parametry - Ukryty na karcie towaru ;/parameters/parameter@projector_hide 
+
+Parametry - Ukryty w szablonach aukcji ;/parameters/parameter@auction_template_hide 
+
+Zdjęcia 	 
+
+Ikony i zdjęcia - Ikona - Adres URL ;/images/icons/icon@url 
+
+Ikony i zdjęcia - Ikona dla serwisów aukcyjnych - Adres URL ;/images/icons/auction_icon@url 
+
+Ikony i zdjęcia - Ikona towaru w grupie - Adres URL ;/images/icons/group_icon@url 
+
+Ikony i zdjęcia - Zdjęcia - Adres URL ;/images/large/image@url 
+
+Rozmiary w towarze 	 
+
+Rozmiar towaru - Identyfikator rozmiaru ;/sizes/size@id 
+
+Rozmiar towaru - Nazwa rozmiaru ;/sizes/size@name 
+
+Rozmiar towaru - Waga ;/sizes/size@weight 
+
+Rozmiar towaru - Kod producenta ;/sizes/size@code_producer 
+
+Rozmiar towaru - Kod zewnętrznego systemu ;/sizes/size@code_external 
+
+Rozmiar towaru - Cena detaliczna [brutto] ;/sizes/size/price@gross 
+
+Rozmiar towaru - Cena detaliczna [netto] ;/sizes/size/price@net 
+
+Rozmiar towaru - Cena hurtowa [brutto] ;/sizes/size/price_wholesale@gross 
+
+Rozmiar towaru - Cena hurtowa [netto] ;/sizes/size/price_wholesale@net 
+
+Rozmiar towaru - Cena minimalna [brutto] ;/sizes/size/price_minimal@gross 
+
+Rozmiar towaru - Cena minimalna [netto] ;/sizes/size/price_minimal@net 
+
+Rozmiar towaru - Sugerowana cena detaliczna [brutto] ;/sizes/size/srp@gross 
+
+Rozmiar towaru - Sugerowana cena detaliczna [netto] ;/sizes/size/srp@net 
+
+Rozmiar towaru - Cena przekreślona detaliczna [brutto] ;/sizes/size/crossedout_retail_price@gross 
+
+Rozmiar towaru - Cena przekreślona detaliczna [netto] ;/sizes/size/crossedout_retail_price@net 
+
+Rozmiar towaru - Cena przekreślona hurtowa [brutto] ;/sizes/size/crossedout_wholesale_price@gross 
+
+Rozmiar towaru - Cena przekreślona hurtowa [netto] ;/sizes/size/crossedout_wholesale_price@net 
+
+Hotspoty 	 
+
+Marketing - Widoczność w strefie hotspot ;/hotspots/site@id 
+
+Marketing - Widoczność w strefie hotspot - ustawienia ręczne (tak czy nie) ;/hotspots/site@manual_config 
+
+Marketing - Widoczność w strefie hotspot - Promocja ;/hotspots/site/promotion@visible 
+
+Marketing - Widoczność w strefie hotspot - Przecena ;/hotspots/site/discount@visible 
+
+Marketing - Widoczność w strefie hotspot - Towar wyróżniony ;/hotspots/site/distinguished@visible 
+
+Marketing - Widoczność w strefie hotspot - Ustawienia ręczne ;/hotspots/site/special@visible 
+
+Grupowanie towaru 	 
+
+Grupowanie towaru - Identyfikator towaru głównego ;/group@id 
+
+Grupowanie towaru - Nazwa grupy ;/group/group_by_parameter@name 
+
+Grupowanie towaru - Nazwa towaru w grupie ;/group/group_by_parameter/product_value@name 
+
+Stany magazynowe (dla każdego z rozmiarów) 	 
+
+Ilość - Magazyn - Węzeł ;/product/sizes/size/stock 
+
+Ilość - Identyfikator magazynu ;/sizes/size/stock@stock_id 
+
+Ilość - Stan magazynowy ;/sizes/size/stock@quantity 
+
+Ilość - Lokalizacja w magazynie ;/sizes/size/stock@location_text_id 
+
+Program lojalnościowy 	 
+
+Program lojalnościowy - Operacje ;/loyalty_program/site@operation 
+
+Program lojalnościowy - Typ klienta ;/loyalty_program/site@clients 
+
+Program lojalnościowy - Punkty ;/loyalty_program/site@points 
+
+Program lojalnościowy - Numer sklepu ;/product/loyalty_program/site 
+
+Nawigacja 	 
+
+Nawigacja (menu) - Numer sklepu ;/navigation/site@id 
+
+Nawigacja (menu) - Numer sklepu - Węzeł ;/product/navigation/site 
+
+Nawigacja (menu) - Identyfikator drzewa menu ;/navigation/site/menu@id 
+
+Nawigacja (menu) - Identyfikator drzewa menu - Węzeł ;/product/navigation/site/menu 
+
+Nawigacja (menu) - Nazwa węzła menu ;/navigation/site/menu/item@textid 
+
+Nawigacja (menu) - Nazwa węzła menu - Węzeł ;/product/navigation/site/menu/item 
+
+Towary powiązane 	 
+
+Towary powiązane - Kod zewnętrznego systemu ;/associated_products/product@code_external 
+
+Towary powiązane - Węzeł ;/product/associated_products/product 
+
+Ceny 	 
+
+Ceny - Cena dla POS - Identyfikator rozmiaru ;/price_pos/price@size_id 
+
+Ceny - Cena hurtowa - Identyfikator rozmiaru ;/price_wholesale/site@size_id 
+
+Ceny - Cena minimalna - Identyfikator rozmiaru ;/price_minimal/site@size_id 
+	 
+Ilości - Identyfikator rozmiaru ;/sizes/size/stock@size_id 
+
+Załączniki 	 
+
+Załączniki do towarów - Audio - Adres URL ;/attachments/audio/sound@url 
+
+Załączniki do towarów - Audio - Nazwa ;/attachments/audio/sound@name 
+
+Załączniki do towarów - Audio - Nazwa [język tłumaczenia] ;/attachments/audio/sound@lang 
+
+Załączniki do towarów - Zdjęcie - Adres URL ;/attachments/image/picture@url 
+
+Załączniki do towarów - Zdjęcie - Nazwa ;/attachments/image/picture@name 
+
+Załączniki do towarów - Zdjęcie - Nazwa [język tłumaczenia] ;/attachments/image/picture@lang 
+
+Załączniki do towarów - Dokument - Adres URL ;/attachments/document/doc@url 
+
+Załączniki do towarów - Dokument - Nazwa ;/attachments/document/doc@name 
+
+Załączniki do towarów - Dokument - Nazwa [język tłumaczenia] ;/attachments/document/doc@lang 
+
+Załączniki do towarów - Wideo - Adres URL ;/attachments/video/movie@url 
+
+Załączniki do towarów - Wideo - Nazwa ;/attachments/video/movie@name 
+
+Załączniki do towarów - Wideo - Nazwa [język tłumaczenia] ;/attachments/video/movie@lang 
+
+Załączniki do towarów - Inny - Adres URL ;/attachments/other/file@url 
+
+Załączniki do towarów - Inny - Nazwa ;/attachments/other/file@name 
+
+Załączniki do towarów - Inny - Nazwa [język tłumaczenia] ;/attachments/other/file@lang 
